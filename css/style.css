@@ -288,9 +288,9 @@ body {
     position: relative; }
   .user-nav__icon-box {
     position: relative; }
-    .user-nav__icon-box:hover .notification,
-    .user-nav__icon-box:hover .chat,
-    .user-nav__icon-box:hover .profile {
+    .user-nav__icon-box:hover .user-nav__icon-box:focus .notification,
+    .user-nav__icon-box:hover .user-nav__icon-box:focus .chat,
+    .user-nav__icon-box:hover .user-nav__icon-box:focus .profile {
       visibility: visible;
       opacity: 1; }
     .user-nav__icon-box:hover .user-nav__notification {
